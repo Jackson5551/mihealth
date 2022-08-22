@@ -1,9 +1,9 @@
 :root{
     --white: white;
     --black: black;
-    --grey: lightgrey;
-    --green: limegreen;
-    --orange: rgb(255, 94, 0);
+    --grey: #e0e0e0;
+    --green: #8dc728;
+    --orange: #ce2020;
 }
 
 body{
@@ -18,8 +18,8 @@ header{
     background-color: var(--white);
     display: flex;
     justify-content: space-between;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 nav{
@@ -30,7 +30,7 @@ nav{
 }
 nav>h3{
     font-size: large;
-    padding: 5px;
+    /* padding: 15px; */
 }
 nav>h3>a{
     text-decoration: none;
@@ -46,7 +46,16 @@ main{
 
 .leftArea{
     width: 30%;
-    margin: 40px;
+    max-width: 30%;
+    margin: 20px;
+}
+.leftAreaHeader{
+    font-size: xx-large;
+    text-align: justify;
+    font-weight: bolder;
+}
+.leftAreaText{
+    
 }
 
 .images{
