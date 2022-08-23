@@ -49,6 +49,8 @@ main{
 }
 #beHealthy{
     margin:0;
+    font-weight: 800;
+    font-size: xxx-large;
 }
 .leftArea{
     width: 30%;
@@ -62,6 +64,10 @@ main{
 }
 .leftAreaText{
     width: 75%;
+}
+.leftAreaText>a{
+    text-decoration: none;
+    color: black;
 }
 
 .images{
